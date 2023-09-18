@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+@font-face {
+    font-family: 'Title';
+    src: url('../../.././public/porter_sans_block/porter-sans-inline-block.ttf');
+}
+
+
+
+
+.container_bingo {
+    margin: auto;
+    overflow-x: hidden;
+    background-color: #152789;
+}
+
+.title {
+    margin: auto;
+    margin-top: 50px;
+    background-color: #000;
+    width: 300px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    font-family: 'Title', Arial, Helvetica, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.title a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.result {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    margin: auto;
+    margin-top: 30px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.result h2 {
+    font-size: 3em;
+    color: #000;
+    text-align: center;
+}
+
+.button {
+    margin: auto;
+    cursor: pointer;
+    width: 163px;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: #F1E800;
+    border-radius: 30px;
+    color: #060606;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button>button {
+    cursor: pointer;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #F1E800;
+    border: none;
+    font-size: 1em;
+}
+.restart{
+    margin: auto;
+    cursor: pointer;
+    width: 163px;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(197, 5, 5);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.restart > button{
+    cursor: pointer;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: rgb(197, 5, 5);
+    border: none;
+    font-size: 1em;
+    color: #fff;
+}
+.section_numbers {
+    margin: auto;
+    margin-top: 30px;
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #091246;
+    min-width: 150px;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.section_numbers h2 {
+    text-align: center;
+}
+
+.section_numbers ul {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.section_numbers ul > li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;    
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section_numbers ul > li > h3{
+    color: #000;
+    text-align: center;
+}

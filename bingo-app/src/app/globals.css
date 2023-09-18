@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+body {
+  background-color: #152789;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 150px;
+  color: #fff;
+  font-family: 'Chakra Petch', Arial, Helvetica, sans-serif;
+}
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
