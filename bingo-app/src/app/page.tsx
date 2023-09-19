@@ -11,6 +11,9 @@ export default function Home() {
         <h2>Regras do Jogo</h2>
         <ul>
           <li>
+            O jogo consite em uma tabela contendo números de 0 a 80, onde serão sorteados aleatoriamente.
+          </li>
+          <li>
             Ao iniciar todos os jogadores
             devem marcar o símbolo no meio
             da tabela.
