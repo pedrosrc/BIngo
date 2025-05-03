@@ -45,7 +45,7 @@ export default function Bingo({ maxLength, changeStarter }: Props) {
       <div className="bg-blue-600/80 rounded-lg p-4 flex flex-col items-center w-full">
         <p className="text-white mb-2 text-lg">Número atual:</p>
         <div className="bg-yellow-400 rounded-full w-20 h-20 flex items-center justify-center">
-          <span className="text-4xl font-bold">{lastNumber}</span>
+          <span className="text-4xl font-bold" id='lastNumber'>{lastNumber}</span>
         </div>
       </div>
 
@@ -53,7 +53,7 @@ export default function Bingo({ maxLength, changeStarter }: Props) {
         <p className="text-white mb-2 text-center text-lg">Números sorteados:</p>
         <div className="flex flex-wrap gap-2 justify-center">
           {numbers.map((num) => (
-            <div key={num} className="bg-white rounded-full w-10 h-10 flex items-center justify-center">
+            <div key={num} className="number bg-white rounded-full w-10 h-10 flex items-center justify-center">
               <span className="font-bold">{num}</span>
             </div>
           ))}
