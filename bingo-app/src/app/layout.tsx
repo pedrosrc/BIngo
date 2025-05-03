@@ -1,13 +1,40 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter} from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'BIngo!',
-  description: 'criado por Pedro',
-}
+  description: 'Se divirta com seus amigos com sorteador de Bingo!',
+  viewport: 'width=device-width, initial-scale=1.0',
+  icons: {
+    icon: '/favicon.ico',
+  },
+  openGraph: {
+    title: 'BIngo!',
+    description: 'Se divirta com seus amigos com sorteador de Bingo!',
+    url: 'https://b-ingo.vercel.app/',
+    images: [
+      {
+        url: 'https://b-ingo.vercel.app/assets/bingo-cover.jpg',
+        width: 800,
+        height: 600,
+      },
+    ],
+    siteName: 'BIngo!',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'BIngo!',
+    description: 'Se divirta com seus amigos com sorteador de Bingo!',
+    images: ['https://b-ingo.vercel.app/assets/bingo-cover.jpg'],
+  },
+  other: {
+    'itemprop:name': 'BIngo!',
+    'itemprop:url': 'https://b-ingo.vercel.app/',
+    'itemprop:description': 'Se divirta com seus amigos com sorteador de Bingo!',
+    'itemprop:image': 'https://b-ingo.vercel.app/assets/bingo-cover.jpg',
+  },
+};
 
 export default function RootLayout({
   children,
@@ -19,8 +46,8 @@ export default function RootLayout({
       <head>
         <link rel='icon' href='/favicon.io'/>
       </head>
-      <body className={inter.className}>{children}</body>
-      <footer> <p> Created By  <a href="https://www.linkedin.com/in/pedroleodev/" target='_blank'>Pedro Leonardo</a> </p> </footer>
+      <body className='bg-gradient-to-b from-blue-900 to-blue-700 overflow-x-hidden'>{children}</body>
+      
     </html>
   )
 }
