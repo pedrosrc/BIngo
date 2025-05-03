@@ -1,8 +1,8 @@
 # BIngo!
 
-<img src="./img/bingo-dash.PNG" width="800" align="center">
+<img src="./img/bingo-dash.png" width="800" align="center">
 
-> Bingo Digital é uma aplicação web que simula o tradicional jogo de bingo, permitindo que usuários definam parâmetros personalizados e acompanhem o sorteio de números em tempo real. O aplicativo é perfeito para se divertir em grupo ou simplesmente para diversão pessoal.
+> BIngo! é uma aplicação web que simula o tradicional jogo de bingo, permitindo que usuários definam parâmetros personalizados e acompanhem o sorteio de números em tempo real. O aplicativo é perfeito para se divertir em grupo ou simplesmente para diversão pessoal.
 
 
 ## 💻 Pré-requisitos
@@ -12,7 +12,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Você instalou a versão mais recente do `<NodeJS>`
 - Você tem uma máquina `<Windows / Linux / Mac>`.
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando BIngo!
 
 Para instalar o <nome_do_projeto>, siga estas etapas:
 1. Clone o repositório
