@@ -1,8 +1,8 @@
 # BIngo!
 
-<img src="./img/bingo-dash.PNG" width="800" align="center">
+<img src="./img/bingo-dash.png" width="800" align="center">
 
-> Bingo Digital é uma aplicação web que simula o tradicional jogo de bingo, permitindo que usuários definam parâmetros personalizados e acompanhem o sorteio de números em tempo real. O aplicativo é perfeito para se divertir em grupo ou simplesmente para diversão pessoal.
+> BIngo! é uma aplicação web que simula o tradicional jogo de bingo, permitindo que usuários definam parâmetros personalizados e acompanhem o sorteio de números em tempo real. O aplicativo é perfeito para se divertir em grupo ou simplesmente para diversão pessoal.
 
 
 ## 💻 Pré-requisitos
