@@ -28,11 +28,14 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
+        working-directory: bingo-app
 
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v6
         with:
+          working-directory: bingo-app
           build: npm run build
           start: npm run dev
           browser: chrome
           wait-on: 'http://localhost:3000'
+        
